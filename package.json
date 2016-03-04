@@ -1,7 +1,7 @@
 {
   "name": "lambdaDynamoDbDemo",
   "version": "1.0.0",
-  "description": "",
+  "description": "A demo of using DynamoDb from Lambda for a blog post. ",
   "main": "index.js",
   "files": [
     "*.js"
@@ -10,8 +10,8 @@
     "create": "claudia create --name lambdaDynamoDbDemo --region us-west-2 --api-module index",
     "deploy": "claudia update"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Marcus Hammarberg @marcusoftnet",
+  "license": "MIT",
   "dependencies": {
     "claudia-api-builder": "^1.0.2"
   }
