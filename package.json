@@ -1,0 +1,18 @@
+{
+  "name": "lambdaDynamoDbDemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "create": "claudia create --name lambdaDynamoDbDemo --region us-west-2 --api-module index",
+    "deploy": "claudia update"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "claudia-api-builder": "^1.0.2"
+  }
+}
