@@ -19,3 +19,4 @@ curl -X DELETE https://088zr0agp9.execute-api.us-west-2.amazonaws.com/latest/use
 
 echo
 echo "Test run done... I should proabaly have done this in Javascript, huh?"
+echo "Ok... I did. run it with 'npm test', and find the tests in the tests folder"

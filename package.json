@@ -8,7 +8,8 @@
   ],
   "scripts": {
     "create": "claudia create --name lambdaDynamoDbDemo --region us-west-2 --api-module index  --policies policies",
-    "deploy": "claudia update"
+    "deploy": "claudia update",
+    "test" : "mocha -u bdd -R spec -t 5000"
   },
   "author": "Marcus Hammarberg @marcusoftnet",
   "license": "MIT",
@@ -17,5 +18,10 @@
     "bluebird": "^3.3.3",
     "claudia-api-builder": "^1.0.2",
     "dynamodb-doc": "^1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "request": "^2.69.0",
+    "should": "^8.2.2"
   }
 }
